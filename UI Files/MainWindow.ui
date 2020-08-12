@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Product Sans</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Images/ACVA - LOGO.png</normaloff>Images/ACVA - LOGO.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(255,255,255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="acva_logo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>941</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/ACVA_Voice.jpg</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="intro">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>100</y>
+      <width>411</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Product Sans</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Hi, how can I help you?</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mic">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>300</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(E:/BE/FINAL YEAR PROJECT/Qt Designer/Images/mic2.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>210</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Product Sans</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover
+{
+	border: 2px solid #0976CF;
+}
+QPushButton
+{
+	border: 2px solid #85C1E9;
+	border-radius:8px;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Drive me home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>210</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Product Sans</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover
+{
+	border: 2px solid #0976CF;
+}
+QPushButton
+{
+	border: 2px solid #85C1E9;
+	border-radius:8px;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>I'm Bored</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button3">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>210</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Product Sans</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover
+{
+	border: 2px solid #0976CF;
+}
+QPushButton
+{
+	border: 2px solid #85C1E9;
+	border-radius:8px;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Set a timer</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
